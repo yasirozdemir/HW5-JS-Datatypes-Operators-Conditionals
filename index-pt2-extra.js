@@ -7,8 +7,8 @@
 
 console.log("\n-----------------------Exercise 1---------------------------\n");
 
-let gender = "male";
-let isMale = gender ? "male" : "female";
+let isMale = false;
+let gender = isMale ? "male" : "female";
 console.log("Gender is: ", gender)
 
 /*EX 2
