@@ -7,7 +7,9 @@
 
 console.log("\n-----------------------Exercise 1---------------------------\n");
 
-
+let gender = "male";
+let isMale = gender ? "male" : "female";
+console.log("Gender is: ", gender)
 
 /*EX 2
  Write a piece of code for checking if, given two integers, the value of one of them is 8 or if their addition or subtraction is equal to 8.
