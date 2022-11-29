@@ -121,9 +121,10 @@ if (string3Length > string4Length) {
 
 console.log("\n-----------------------Exercise 7---------------------------\n");
 
-let number9 = 17.5;
+let number9 = 17.2;
+let isInteger = number9 % 1 === 0;
 
-if (Number.isInteger(number9)) 
+if (isInteger) 
 {
     console.log("Number 9 is: ", number9, " and it's an integer.")
 } else {
